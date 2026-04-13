@@ -64,20 +64,17 @@ a {
 }
 
 .logo {
-
-    display: flex;
     position: absolute;
     background-image: url(photo/logo5.jpg);
     background-size: cover;
     height: 500px;
     width: 500px;
-    /* left: 162px; */
-    justify-content: center;
+    left: 162px;
+    /* justify-content: center; */
     top: 179px;
     align-items: center;
     border-radius: 50%;
-    border: 10px solid #28587d;
-
+    border: 7px solid #28587d;
 }
 
 .logo:hover {
@@ -88,7 +85,7 @@ a {
 .des {
     text-transform: capitalize;
     position: absolute;
-    left: 174px;
+    left: 131px;
     top: 28px;
     border: 2px solid;
     align-items: center;
@@ -121,13 +118,11 @@ a {
 .name {
     top: 49px;
     display: flex;
-    justify-content: center;
     font-size: 48px;
-    text-align: center;
     text-overflow: ellipsis;
     text-transform: uppercase;
     position: absolute;
-    left: 191px;
+    left: 138px;
     text-shadow: 9px 9px 15px #295B7F;
     color: #1f4968;
 }
@@ -135,25 +130,21 @@ a {
 
 
 .footer {
-    display: flex;
     position: absolute;
     top: 1056px;
-    left: 0px;
-    color: #f0f5f9;
+    left: 231px;
+    color: #436e92;
     font-size: 31px;
     text-align: center;
     justify-content: center;
-    background-color: #122736;
-    width: 1034px;
-    height: 52px;
     font-size: 23px;
 }
 
 h1 {
     position: absolute;
     color: #183449;
-    left: 538px;
-    top: 247px;
+    left: 460px;
+    top: 257px;
     font-size: 38px;
 }
 
@@ -195,14 +186,13 @@ table tr:hover {
 .form {
     position: relative;
     top: 352px;
-    left: 640px;
+    left: 560px;
     transform: translateX(-50%);
     width: 500px;
     height: 634px;
     background-color: #f0f5f9;
     border-radius: 15px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 32px;
@@ -240,7 +230,6 @@ table tr:hover {
     background-color: #f0f5f9;
     border-radius: 15px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 32px;
@@ -276,16 +265,14 @@ table tr:hover {
 .info ul {
     position: absolute;
     display: flex;
-    gap: 34px;
+    gap: 98px;
     list-style: none;
     background-color: #F6F9FC;
-    text-align: end;
     flex-direction: row;
-    left: 260px;
+    left: 237px;
     top: 823px;
     font-size: 25px;
-    width: 560px;
-    border-radius: 17px;
+    border-radius: 10px;
     color: #28587d;
     border: 3px solid;
 }
@@ -306,83 +293,6 @@ table tr:hover {
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
 }
 
-/* 
-@media (max-width:767px) {
-    .user {
-        top: 262px;
-        left: 362px;
-        width: 469px;
-        font-size: 26px;
-
-        height: 390px;
-    }
-
-    .info ul {
-        gap: 17px;
-        left: 114px;
-        top: 664px;
-        font-size: 25px;
-        width: 486px;
-    }
-
-    .nav ul {
-        top: 124px;
-        width: 547px;
-        left: 67px;
-        height: 35px;
-        font-size: 17px;
-        gap: 25px;
-    }
-
-    h1 {
-        left: 294px;
-        top: 170px;
-        font-size: 33px;
-    }
-
-    .form {
-        left: 377px;
-        top: 236px;
-        width: 325px;
-    }
-
-    .name {
-        font-size: 38px;
-    }
-
-    .footer {
-
-        top: 953px;
-        color: #f0f5f9;
-        font-size: 24px;
-        height: 48px;
-    }
-
-    .des {
-        left: -57px;
-        top: -56px;
-        height: 102px;
-        width: 568px;
-        font-size: 23px
-    }
-
-    .logo {
-        height: 400px;
-        width: 400px;
-        left: 13px;
-        top: 77px;
-    }
-
-    .tap {
-        height: 633px;
-        width: 530px;
-
-        top: 252px;
-        left: 111px;
-    }
-
-}
-*/
 @media (min-width:767px) {
     .user {
         top: 352px;
@@ -393,17 +303,11 @@ table tr:hover {
 
     }
 
-    .info ul {
-        left: 272px;
-        top: 772px;
-    }
+
 
     .tap {
-        top: 345px;
-        left: 265px;
-        font-size: 19px;
+        left: 178px;
         height: 587px;
-        width: 614px;
     }
 
 
@@ -416,51 +320,22 @@ table tr:hover {
         height: 42px;
     }
 
-    h1 {
-        left: 510px;
-        top: 257px;
-        font-size: 27px;
-    }
-
-    .des {
-        left: 179px;
-        top: 23px;
-        height: 117px;
-        width: 470px;
-        font-size: 21px;
-    }
-
-    .logo {
-        height: 500px;
-        width: 500px;
-        left: 170px;
-        top: 188px;
-    }
-
-    .form {
-        top: 327px;
-        left: 548px;
-        width: 522px;
-        height: 588px;
-        font-size: 21px;
-    }
-
-    .footer {
-        top: 1038px;
-        height: 56px;
-        font-size: 22px;
-    }
-
-
 }
 
 
 @media (min-width:992px) {
+    .user {
+        left: 562px;
+    }
+
+    .info ul {
+        left: 264px;
+    }
 
     .name {
         font-size: 43px;
-        left: 267px;
-        top: 6px;
+        left: 216px;
+        top: 55px;
     }
 
 }
