@@ -116,13 +116,14 @@ a {
 }
 
 .name {
+    text-align: center;
     top: 49px;
     display: flex;
     font-size: 48px;
     text-overflow: ellipsis;
     text-transform: uppercase;
     position: absolute;
-    left: 138px;
+    left: 158px;
     text-shadow: 9px 9px 15px #295B7F;
     color: #1f4968;
 }
